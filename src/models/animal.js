@@ -1,4 +1,5 @@
 const mongoose = require("mongoose"); // importando el componente mogoose
+const verifyToken = require('../routes/validate_token');
 const animalSchema = mongoose.Schema({
     nombre: {
         type: String,
